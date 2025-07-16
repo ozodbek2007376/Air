@@ -1,5 +1,5 @@
 {
-  "name": "me-me",
+  "name": "c",
   "homepage": "https://ozodbek2007376.github.io/Air/",
   "private": true,
   "version": "0.0.0",
@@ -27,5 +27,16 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
     "vite": "^6.3.5"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozodbek2007376/Air.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozodbek2007376/Air/issues"
   }
 }
