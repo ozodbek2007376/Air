@@ -1,7 +1,7 @@
-import Footer from "./Footer";
-import Header from "./Header";
-import Navbar from "./Navbar";
-import Section from "./Section";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Section from "./components/Section";
 
 function App() {
   return (
