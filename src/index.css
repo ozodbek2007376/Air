@@ -1,202 +1,199 @@
-*{
-    margin: 0;
-    padding: 0;
- }
- 
- 
- .banner {
-      background: url('../public/img/nav-bg.png') no-repeat center center/cover;
-      height: 100vh;
-      color: #fff;
-      position: relative;
-    }
+* {
+  margin: 0;
+  padding: 0;
+}
 
-    .banner-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.4);
-    }
+.banner {
+  background: url("../public/img/nav-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
 
-    .banner-content {
-      position: relative;
-      z-index: 2;
-      top: 50%;
-      transform: translateY(-50%);
-      text-align: left;
-      padding: 0 2rem;
-    }
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 
-    .banner h1 {
-      font-size: 3rem;
-      font-weight: 600;
-    }
+.banner-content {
+  position: relative;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  padding: 0 2rem;
+}
 
-    .banner h1 .highlight {
-      color: #c2a4e5;
-    }
+.banner h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
 
-    .banner a.btn-explore {
-      background: #fff;
-      color: #000;
-      border-radius: 50px;
-      padding: 10px 25px;
-      font-weight: 500;
-      margin-top: 20px;
-      display: inline-block;
-    }
+.banner h1 .highlight {
+  color: #c2a4e5;
+}
 
-    
+.banner a.btn-explore {
+  background: #fff;
+  color: #000;
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-weight: 500;
+  margin-top: 20px;
+  display: inline-block;
+}
 
-    .nav-link {
-      color: #000 !important;
-      font-weight: 500;
-    }
+.nav-link {
+  color: #000 !important;
+  font-weight: 500;
+}
 
-    .btn-sign {
-      background: #5b4b7d;
-      color: #fff;
-      border: none;
-      padding: 5px 15px;
-      border-radius: 20px;
-    }
+.btn-sign {
+  background: #5b4b7d;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
 
-    .logo {
-      height: 40px;
-    }
+.logo {
+  height: 40px;
+}
 
-    @media (max-width: 768px) {
-      .banner h1 {
-        font-size: 2rem;
-      }
-    } 
-  
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 2rem;
+  }
+}
 
-       .section-title {
-      text-align: center;
-      font-weight: 700;
-      margin: 50px 0 30px;
-    }
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  margin: 50px 0 30px;
+}
 
-    .img-rounded {
-      border-radius: 12px;
-      width: 100%;
-      height: auto;
-    }
+.img-rounded {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+}
 
-    .text-box {
-      padding: 15px;
-    }
+.text-box {
+  padding: 15px;
+}
 
-    .highlight-box {
-      border: 2px solid #e800ff;
-      border-radius: 8px;
-      padding: 10px;
-    }
+.highlight-box {
+  border: 2px solid #e800ff;
+  border-radius: 8px;
+  padding: 10px;
+}
 
-    @media (max-width: 767px) {
-      .order-md-1 {
-        order: 2;
-      }
+@media (max-width: 767px) {
+  .order-md-1 {
+    order: 2;
+  }
 
-      .order-md-2 {
-        order: 1;
-      }
-    }
+  .order-md-2 {
+    order: 1;
+  }
+}
 
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  margin: 60px 0 40px;
+}
 
+.feature-card {
+  width: 310px;
+  height: 268px;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
 
-     .section-title {
-      text-align: center;
-      font-weight: 700;
-      margin: 60px 0 40px;
-    }
+.feature-card img {
+  width: 40px;
+  margin-bottom: 15px;
+}
 
-    .feature-card {
-        width: 310px;
-        height: 268px;
-      background-color: #fff;
-      padding: 25px;
-      border-radius: 15px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-      text-align: center;
-     
-    }
+.plane-img {
+  width: 100%;
+  max-width: 180px;
+  margin: 30px auto;
+  display: block;
+}
 
-    .feature-card img {
-      width: 40px;
-      margin-bottom: 15px;
-    }
+.luxury-card img {
+  border-radius: 10px;
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
 
- 
+.luxury-card p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+}
 
-    .plane-img {
-      width: 100%;
-      max-width: 180px;
-      margin: 30px auto;
-      display: block;
-    }
+@media (max-width: 767px) {
+  .plane-img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
 
-    .luxury-card img {
-      border-radius: 10px;
-      width: 100%;
-      height: 160px;
-      object-fit: cover;
-    }
+.pricing-card {
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 15px 0;
+  text-align: center;
+}
+.pricing-card img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.price {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+.card-popular:hover {
+  background-color: #7e66c6;
+  color: white;
+}
+.card-business:hover {
+  background-color: #7e66c6;
+  color: white;
+}
+.card-elite:hover {
+  background-color: #7e66c6;
+  color: white;
+}
 
-    .luxury-card p {
-      text-align: center;
-      margin-top: 10px;
-      font-weight: 500;
-    }
+.footer-sty {
+  background-color: #7e66c6;
+  color: white;
+}
 
-    @media (max-width: 767px) {
-      .plane-img {
-        margin-top: 40px;
-        margin-bottom: 40px;
-      }
-    }
+.footer-logo {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-
-
-    .pricing-card {
-        border-radius: 20px;
-        box-shadow: 0 0 15px rgba(0,0,0,0.1);
-        padding: 30px;
-        margin: 15px 0;
-        text-align: center;
-      }
-      .pricing-card img {
-        width: 50px;
-        margin-bottom: 10px;
-      }
-      .price {
-        font-size: 28px;
-        font-weight: bold;
-        margin: 15px 0;
-      }
-      .card-popular:hover { background-color: #7e66c6;  color: white;}
-      .card-business:hover { background-color: #7e66c6; color: white; }
-      .card-elite:hover { background-color: #7e66c6;  color: white;}
- 
-      .footer-sty {
-        background-color:#7e66c6;
-         color:white;
-      }
-
-      .footer-logo {
-        margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-
-      }
-
-
-      .img-2:hover {
-        filter: drop-shadow(1px 1px 20px yellow);
-       }
-      
+.img-2:hover {
+  filter: drop-shadow(1px 1px 20px yellow);
+}
